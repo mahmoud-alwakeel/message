@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:messege/screens/login_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MessegeApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MessegeApp extends StatelessWidget {
+  const MessegeApp({super.key});
 
   @override
   Widget build(BuildContext context) {
